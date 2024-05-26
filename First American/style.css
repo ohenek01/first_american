@@ -1,0 +1,163 @@
+body{
+    background-color: azure;
+    padding-top: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+.navigations{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100px;
+    background-color: azure;
+}
+
+.navigations > div{
+    color: rgb(12, 12, 12);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 35px;
+    transition: .3s;
+    height: 30px;
+}
+
+.navigations a:hover {
+    color: antiquewhite;
+    height: 30px;
+}
+
+.navigations a.active{
+    color: antiquewhite;
+}
+
+.navigations a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+.home-page h1{
+    text-align: center;
+    width: 100%;
+    background-color: antiquewhite;
+    height: 100px;
+    align-content: center;
+    line-height: 100px;
+}
+
+.logo{
+    height: 80px;
+    position: absolute;
+    left: 0px;
+}
+
+.home-building{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.intro{
+    width: 50%;
+    height: 00px;
+    margin: 100px 400px 150px 40px;
+   /* position: absolute;
+    bottom: -300px;
+    right: 600px;*/
+    font-size: 20px;
+}
+
+.intro p{
+    height: 150px;
+}
+
+.intro-pics{
+    position: absolute;
+    right: 0px;
+    height: 350px;
+    width: 500px;
+    top: 770px;
+    right: 10px;
+}
+
+.aims{
+    width: 99%;
+    position: absolute;
+    bottom: 200px;
+    position: absolute;
+    top: 1150px;
+    height: 240px;
+}
+
+.mission{
+    width: 30%;
+    border-radius: 2%;
+    background-color: beige;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    height: 240px;
+}
+
+.values{
+    width: 30%;
+    border-radius: 2%;
+    background-color: beige;
+    font-size: 20px;
+    position: absolute;
+    left: 420px;
+    height: 240px;
+}
+
+.vision{
+    width: 30%;
+    border-radius: 2%;
+    background-color: beige;
+    font-size: 20px;
+    position: absolute;
+    left: 820px;
+    height: 240px;
+}
+
+.brain-image{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.brain-image .neurosurgery{
+    width: 45vw;
+    height: 90vh;
+    position: absolute;
+    bottom: -200px;
+}
+
+.title{
+    font-size: 24;
+}
+
+.text1{
+width: 650px;
+font-size: 16;
+}
+
+.first-list{
+    display: flex;
+    justify-content: right;
+}
+
+.second-list{
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    top: 620px;
+}
