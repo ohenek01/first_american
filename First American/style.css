@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    color: #191970;
     padding-top: 100px;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -16,7 +17,7 @@ body{
     left: 0;
     z-index: 1;
     height: 100px;
-    background-color: azure;
+    background-color: white;
 }
 
 .navigations > div{
@@ -38,18 +39,19 @@ body{
 }
 
 .navigations a.active{
-    color: antiquewhite;
+    color: #ffdb58;
 }
 
 .navigations a{
     text-decoration: none;
-    color: rgb(12, 12, 12);
+    color: rgb(30, 30, 101);
 }
 
 .home-page h1{
     text-align: center;
     width: 100%;
-    background-color: antiquewhite;
+    background-color: #191970;
+    color: white;
     height: 100px;
     align-content: center;
     line-height: 100px;
@@ -71,9 +73,6 @@ body{
     width: 50%;
     height: 00px;
     margin: 100px 400px 150px 40px;
-   /* position: absolute;
-    bottom: -300px;
-    right: 600px;*/
     font-size: 20px;
 }
 
@@ -160,4 +159,18 @@ font-size: 16;
     justify-content: left;
     position: absolute;
     top: 620px;
+}
+
+.dropdown{
+    width: 150px;
+    height: 20vh;
+    background-color: white;
+    z-index: 1;
+    list-style: none;
+    text-align: left;
+    border-radius: 5%;
+}
+
+.dropdown li{
+    margin-bottom: 10px;
 }
