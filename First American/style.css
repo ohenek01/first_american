@@ -105,7 +105,8 @@ body{
     font-size: 20px;
     position: absolute;
     left: 20px;
-    height: 240px;
+    top: -10px;
+    height: 235px;
 }
 
 .values{
@@ -115,7 +116,8 @@ body{
     font-size: 20px;
     position: absolute;
     left: 420px;
-    height: 240px;
+    top: -10px;
+    height: 235px;
 }
 
 .vision{
@@ -125,7 +127,8 @@ body{
     font-size: 20px;
     position: absolute;
     left: 820px;
-    height: 240px;
+    top: -10px;
+    height: 235px;
 }
 
 .brain-image{
@@ -185,9 +188,17 @@ font-size: 16;
   
   .navigations .dropdown-content a:hover {
     background-color: #0351d7ef;
+    height: 8vh;
   }
   
   .navigations .dropdown:hover .dropdown-content {
     display: block;
     border-radius: 5%;
   }
+
+
+  
+
+  
+
+  
