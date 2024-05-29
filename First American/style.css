@@ -33,12 +33,13 @@ body{
     height: 30px;
 }
 
+
 .navigations a:hover {
     color: antiquewhite;
     height: 30px;
 }
 
-.navigations a.active{
+.navigations a.active::after{
     color: #ffdb58;
 }
 
@@ -197,8 +198,24 @@ font-size: 16;
   }
 
 
+  .navigations a {
+    text-decoration: none;
+    color: rgb(30, 30, 101);
+    position: relative;
+  }
   
-
+  .navigations a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: rgb(30, 30, 101);
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease-in-out;
+  }
   
-
-  
+  .navigations a.active::after,
+  .navigations a:hover::after {
+    width: 100%;
+  }
